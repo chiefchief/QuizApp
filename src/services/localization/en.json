@@ -4,5 +4,10 @@
   "Amount": "Amount",
   "Begin": "Begin",
   "{{current}} of {{total}}": "{{current}} of {{total}}",
+  "True": "True",
+  "False": "False",
+  "You scored": "You scored",
+  "Play Again": "Play Again",
+  "Continue": "Continue",
   "": ""
 }

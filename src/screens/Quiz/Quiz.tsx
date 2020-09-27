@@ -10,7 +10,6 @@ import {Dispatch} from 'redux';
 import {addAnswer} from '@reducers/quiz';
 
 const Quiz: React.FC<TProps> = ({quiz, dispatch}) => {
-  // Quiz screen data.
   const {t} = useTranslation();
   const currentItem = useMemo(() => quiz.initialData[quiz.currentQuestion], [quiz]);
 

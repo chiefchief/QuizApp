@@ -8,12 +8,8 @@ export {default as DropDownPicker} from 'react-native-dropdown-picker';
 // CONTROL
 export {default as UsualButton} from './control/UsualButton';
 
-// DATAVIEW
-
 // LAYOUT
 export {default as KeyboardAvoidingView} from './layout/KeyboardAvoidingView/KeyboardAvoidingView';
-
-// NAVIGATION
 
 // TYPOGRAPHY
 export {default as Icon} from './typography/Icon/Icon';

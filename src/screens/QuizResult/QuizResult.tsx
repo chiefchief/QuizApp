@@ -10,7 +10,6 @@ import {TAnswerItem} from '@types';
 import {resetQuiz} from '@reducers/quiz';
 
 const QuizResult: React.FC<TProps> = ({quiz, dispatch}) => {
-  // QuizResult screen data.
   const {t} = useTranslation();
   const correct = useMemo(() => quiz.resultData.filter((item: TAnswerItem) => item.correct).length, [quiz]);
   const total = useMemo(() => quiz.initialData.length, [quiz]);
@@ -26,7 +25,7 @@ const QuizResult: React.FC<TProps> = ({quiz, dispatch}) => {
 
   const renderItem = ({item}: {item: TAnswerItem}) => (
     <View style={styles.item}>
-      <Icon name={`${item.correct}`} color={item.correct ? 'green' : 'red'} size={16} />
+      <Icon name={`${item.correct}`} color={item.correct ? 'blue' : 'red'} size={16} />
       <Text style={styles.question}>{item.question}</Text>
     </View>
   );

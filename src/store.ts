@@ -12,7 +12,7 @@ const persistConfig = {
   timeout: 10000,
   key: 'root',
   storage: AsyncStorage,
-  whitelist: ['_persisted'], // ADD WHITE LIST IF YOU NEED
+  whitelist: [],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
