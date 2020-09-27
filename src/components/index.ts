@@ -3,8 +3,10 @@ export {View, FlatList, ScrollView, TouchableOpacity, Keyboard, StatusBar} from 
 // MODULES
 export {default as Modal} from 'react-native-modal';
 export {default as Image} from 'react-native-fast-image';
+export {default as DropDownPicker} from 'react-native-dropdown-picker';
 
 // CONTROL
+export {default as UsualButton} from './control/UsualButton';
 
 // DATAVIEW
 

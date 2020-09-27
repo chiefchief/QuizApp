@@ -1,7 +1,7 @@
 import axios from 'axios';
 import {TGenerateOptions, TFormatResponse} from '@types';
 
-const baseURL = __DEV__ ? 'http://192.168.0.1:1204/' : 'http://192.168.0.1:1204/';
+const baseURL = 'https://opentdb.com/api.php';
 
 const instance = axios.create();
 instance.defaults.baseURL = baseURL;

@@ -12,7 +12,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "h_screen": "hygen generate screen",
+    "h_reducer": "hygen generate reducer"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.0",
@@ -25,6 +27,7 @@
     "react": "16.13.1",
     "react-i18next": "^11.7.3",
     "react-native": "0.63.2",
+    "react-native-dropdown-picker": "^3.6.8",
     "react-native-fast-image": "^8.3.2",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-modal": "^11.5.6",

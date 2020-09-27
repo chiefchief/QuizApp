@@ -1,4 +1,8 @@
 {
-  "Welcome to ArtJoker team": "Welcome to ArtJoker team",
+  "Welcome to the Challenge": "Welcome to the Challenge",
+  "Difficulty": "Difficulty",
+  "Amount": "Amount",
+  "Begin": "Begin",
+  "{{current}} of {{total}}": "{{current}} of {{total}}",
   "": ""
 }

@@ -1,3 +1,3 @@
 export const urls = {
-  login: '/login',
+  // login: 'https://opentdb.com/api.php',
 };

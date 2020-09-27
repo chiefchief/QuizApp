@@ -10,6 +10,8 @@ module.exports = [
     message: 'Select screen folder...',
     choices: [
       'Start',
+      'Quiz',
+      'QuizResult',
       //ADD MORE SCREENS
     ],
   },

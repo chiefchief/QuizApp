@@ -1,18 +1,18 @@
 import {combineReducers} from 'redux';
 import {
   INITIAL_GLOBAL,
-  INITIAL_PERSISTED,
+  INITIAL_QUIZ,
   // ADD IMPORT TYPE
 } from './__proto__';
 
 export default combineReducers({
   _global: require('./_global').default,
-  _persisted: require('./_persisted').default,
+  quiz: require('./quiz').default,
   // ADD NEW REDUCER
 });
 
 export type TAppState = {
   _global: INITIAL_GLOBAL;
-  _persisted: INITIAL_PERSISTED;
+  quiz: INITIAL_QUIZ;
   // ADD TYPE
 };

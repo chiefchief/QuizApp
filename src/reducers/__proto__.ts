@@ -1,17 +1,19 @@
+import {TAnswerItem, TRequestItem} from '@types';
+
 export class INITIAL_GLOBAL {
   constructor(data: any = {}) {
-    this.userName = data.userName || '';
+    this.loader = data.loader || false;
   }
-  userName: string;
+  loader: boolean;
 }
 
-export class INITIAL_PERSISTED {
+export class INITIAL_QUIZ {
   constructor(data: any = {}) {
-    this.token = data.token || '';
-    this.name = data.name || '';
-    this.bool = data.bool || false;
+    this.initialData = data.initialData || [];
+    this.resultData = data.resultData || [];
+    this.currentQuestion = data.currentQuestion || 0;
   }
-  token: string;
-  name: string;
-  bool: boolean;
+  initialData: TRequestItem[];
+  resultData: TAnswerItem[];
+  currentQuestion: number;
 }

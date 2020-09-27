@@ -1,10 +1,10 @@
 import {all} from 'redux-saga/effects';
-import {watch_persisted} from './_persisted';
+import {watchQuiz} from './quiz';
 // ADD IMPORT
 
 export default function* rootSaga() {
   yield all([
-    watch_persisted(),
+    watchQuiz(),
     // ADD WATCHER
   ]);
 }
